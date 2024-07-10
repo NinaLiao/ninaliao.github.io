@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" role="document">
+<head role="banner">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
@@ -54,7 +54,7 @@
       border-radius: 10px;
     }
 
-    .frame span {
+    .frame div {
       margin-top: 15px;
       width: 80%;
       height: auto;
@@ -79,18 +79,18 @@
     }
   </style>
 </head>
-<body>
+<body role="main">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
   
-  <div class="frame">
-    <img src="./images/image-qr-code.png" class="img-fluid">
-    <span>
+  <div class="frame" role="region">
+    <img src="./images/image-qr-code.png" class="img-fluid" alt="QR code" role="img">
+    <div>
       <p class="text-center p1">Improve your front-end skills by building projects</p>
       <p class="text-center p2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-    </span>
+    </div>
   </div>
   
-  <div class="attribution">
+  <div class="attribution" role="contentinfo">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Nina</a>.
   </div>
